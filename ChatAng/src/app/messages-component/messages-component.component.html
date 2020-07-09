@@ -4,7 +4,7 @@
         <div class="card-header msg_head">
             <div class="d-flex bd-highlight justify-content-between">
                 <div class="img_cont">
-                    <img src="../../assets/images/msrobot.png" class="rounded-circle user_img" />
+                    <img src="./assets/images/msrobot.png" class="rounded-circle user_img" />
                     <span class="online_icon"></span>
                 </div>
             <div class="user_info">
@@ -18,7 +18,7 @@
             <div *ngFor="let message of messages">
                 <div *ngIf="!message.UserIsHuman; else elseBlock" class="d-flex justify-content-start mb-4">
                     <div class="img_cont_msg">
-                        <img src="../../assets/images/msrobot.png" class="rounded-circle user_img_msg" />
+                        <img src="./assets/images/msrobot.png" class="rounded-circle user_img_msg" />
                     </div>
                     <div class="msg_cotainer">
                         <p>{{message.Message}}</p>
@@ -32,7 +32,7 @@
                             <span class="msg_time_send">{{message.timestamp.toLocaleTimeString()}}</span>
                         </div>
                         <div class="img_cont_msg">
-                            <img src="../../assets/images/user.png" class="rounded-circle user_img_msg">
+                            <img src="./assets/images/user.png" class="rounded-circle user_img_msg">
                         </div>
                     </div>	
                 </ng-template>
