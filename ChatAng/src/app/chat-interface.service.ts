@@ -12,6 +12,6 @@ export class ChatInterfaceService {
     return this.http.get<ChatResponse>(this.hostUrl, { params: new HttpParams().set('text', message), responseType: "json" });
   }
 
-hostUrl = "http://localhost:5000"//"https://river-backend.herokuapp.com"
+hostUrl = "https://river-backend.herokuapp.com"
 
 }
