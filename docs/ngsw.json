@@ -1,0 +1,84 @@
+{
+  "configVersion": 1,
+  "timestamp": 1594339431015,
+  "index": "/RiverScript-Angular-Edition/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/RiverScript-Angular-Edition/favicon.ico",
+        "/RiverScript-Angular-Edition/index.html",
+        "/RiverScript-Angular-Edition/main.26f73b5ab37cddd4b484.js",
+        "/RiverScript-Angular-Edition/manifest.webmanifest",
+        "/RiverScript-Angular-Edition/polyfills.a4021de53358bb0fec14.js",
+        "/RiverScript-Angular-Edition/runtime.e227d1a0e31cbccbf8ec.js",
+        "/RiverScript-Angular-Edition/styles.2b1cd766a36a084a1c8f.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "/RiverScript-Angular-Edition/assets/icons/icon-128x128.png",
+        "/RiverScript-Angular-Edition/assets/icons/icon-144x144.png",
+        "/RiverScript-Angular-Edition/assets/icons/icon-152x152.png",
+        "/RiverScript-Angular-Edition/assets/icons/icon-192x192.png",
+        "/RiverScript-Angular-Edition/assets/icons/icon-384x384.png",
+        "/RiverScript-Angular-Edition/assets/icons/icon-512x512.png",
+        "/RiverScript-Angular-Edition/assets/icons/icon-72x72.png",
+        "/RiverScript-Angular-Edition/assets/icons/icon-96x96.png",
+        "/RiverScript-Angular-Edition/assets/images/msrobot.png",
+        "/RiverScript-Angular-Edition/assets/images/user.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "/RiverScript-Angular-Edition/assets/icons/icon-128x128.png": "4efed7ad5f0b375cac5203229eda4c2eaacc67bb",
+    "/RiverScript-Angular-Edition/assets/icons/icon-144x144.png": "88319098c751c8d8673e967b942b363f5ff3dd73",
+    "/RiverScript-Angular-Edition/assets/icons/icon-152x152.png": "ee03709165b129ffaa224f6c372d5830dfda1c23",
+    "/RiverScript-Angular-Edition/assets/icons/icon-192x192.png": "89038c56305721fff81d8739d05bd93927c7e7f7",
+    "/RiverScript-Angular-Edition/assets/icons/icon-384x384.png": "15563b4e5a21164d9ea38ff233b548310533e620",
+    "/RiverScript-Angular-Edition/assets/icons/icon-512x512.png": "1c2395a0b2700b3802e07371efee07209ba8d241",
+    "/RiverScript-Angular-Edition/assets/icons/icon-72x72.png": "9744ba7fe7c290e9ac9436ef6f42b0979586984c",
+    "/RiverScript-Angular-Edition/assets/icons/icon-96x96.png": "092f09cfd6ad781fa0f9ffe875f4e0c53332257f",
+    "/RiverScript-Angular-Edition/assets/images/msrobot.png": "ad741ba40e563022fdea5ae8cc7b8a12e8da58e7",
+    "/RiverScript-Angular-Edition/assets/images/user.png": "337df0e5e56a98fe416ed598fccdddb21da577d8",
+    "/RiverScript-Angular-Edition/favicon.ico": "541f5a9e09c970677c8c36d997e235d4c50b63b0",
+    "/RiverScript-Angular-Edition/index.html": "940db69a2ace1d7d5ff68cc66d3db738c5920269",
+    "/RiverScript-Angular-Edition/main.26f73b5ab37cddd4b484.js": "ba0d0eed47318f247fd3b2e8645e8e3854b2afa1",
+    "/RiverScript-Angular-Edition/manifest.webmanifest": "9d87c69466e70967b08404019fac34621848f9b8",
+    "/RiverScript-Angular-Edition/polyfills.a4021de53358bb0fec14.js": "b47435a9ef2a4829f2f9dfd35599bde3614981b1",
+    "/RiverScript-Angular-Edition/runtime.e227d1a0e31cbccbf8ec.js": "a9aafcf49f49145093fc831efd9b8e2f6c71bb9c",
+    "/RiverScript-Angular-Edition/styles.2b1cd766a36a084a1c8f.css": "a07d2071083313abbdc346a983fb18e0fae30255"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}
