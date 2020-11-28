@@ -9,9 +9,13 @@ export class ChatInterfaceService {
   constructor(private http: HttpClient) { }
 
   Talk(message){
-    return this.http.get<ChatResponse>(this.hostUrl, { params: new HttpParams().set('text', message), responseType: "json" });
+    try{
+      return this.http.get<ChatResponse>(this.hostUrl, { params: new HttpParams().set('text', message), responseType: "json" });
+    }catch{
+      return this.http.get<ChatResponse>(this.hostUrlBackup, { params: new HttpParams().set('text', message), responseType: "json" });
+    }
   }
 
-hostUrl = "https://riverscript-bot.loca.lt"//"https://river-backend.herokuapp.com"
-
+hostUrl = "https://riverscript-bot.loca.lt";
+hostUrlBackup = "https://river-backend.herokuapp.com";
 }
