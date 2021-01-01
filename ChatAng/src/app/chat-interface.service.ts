@@ -12,15 +12,15 @@ export class ChatInterfaceService {
 
   Talk(message){
     try{
+      return this.http.get<ChatResponse>(this.hostUrl, { params: new HttpParams().set('text', message), responseType: "json" });
+    }catch{
       const headers= new HttpHeaders()
       .set('Bypass-Tunnel-Reminder', '*')
       .set('User-Agent', 'Chatbot');
-      return this.http.get<ChatResponse>(this.hostUrl, { params: new HttpParams().set('text', message), responseType: "json" });
-    }catch{
       return this.http.get<ChatResponse>(this.hostUrlBackup, { params: new HttpParams().set('text', message), responseType: "json" });
     }
     }
 
-hostUrl = "https://riverscript-bot-20201231.loca.lt";
-hostUrlBackup = "https://river-backend.herokuapp.com";
+hostUrlBackup = "https://riverscript-bot-20201231.loca.lt";
+hostUrl = "https://river-backend.herokuapp.com";
 }

@@ -100,17 +100,17 @@ __webpack_require__.r(__webpack_exports__);
 class ChatInterfaceService {
     constructor(http) {
         this.http = http;
-        this.hostUrl = "https://riverscript-bot-20201231.loca.lt";
-        this.hostUrlBackup = "https://river-backend.herokuapp.com";
+        this.hostUrlBackup = "https://riverscript-bot-20201231.loca.lt";
+        this.hostUrl = "https://river-backend.herokuapp.com";
     }
     Talk(message) {
         try {
-            const headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpHeaders"]()
-                .set('Bypass-Tunnel-Reminder', '*')
-                .set('User-Agent', 'Chatbot');
             return this.http.get(this.hostUrl, { params: new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpParams"]().set('text', message), responseType: "json" });
         }
         catch (_a) {
+            const headers = new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpHeaders"]()
+                .set('Bypass-Tunnel-Reminder', '*')
+                .set('User-Agent', 'Chatbot');
             return this.http.get(this.hostUrlBackup, { params: new _angular_common_http__WEBPACK_IMPORTED_MODULE_1__["HttpParams"]().set('text', message), responseType: "json" });
         }
     }
