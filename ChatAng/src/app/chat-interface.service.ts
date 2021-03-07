@@ -21,6 +21,6 @@ export class ChatInterfaceService {
     }
     }
 
-hostUrlBackup = "https://riverscript-bot-20201231.loca.lt";
-hostUrl = "https://river-backend.herokuapp.com";
+hostUrl = "https://bot.liukonen.dev";
+hostUrlBackup = "https://river-backend.herokuapp.com";
 }
