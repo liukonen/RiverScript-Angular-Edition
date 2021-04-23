@@ -100,8 +100,8 @@ __webpack_require__.r(__webpack_exports__);
 class ChatInterfaceService {
     constructor(http) {
         this.http = http;
-        this.hostUrl = "https://bot.liukonen.dev";
-        this.hostUrlBackup = "https://river-backend.herokuapp.com";
+        this.hostUrl = "https://river-backend.herokuapp.com";
+        this.hostUrlBackup = "https://bot.liukonen.dev";
     }
     Talk(message) {
         try {
