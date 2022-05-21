@@ -1,25 +1,23 @@
-$start: #66cccc
-$mid : #87a9e9
-$Tail : #7f7ff7
-$Radius : 15px
-$ItemBG : rgba(0,0,0,0.3)
+$StandardColor: #008bff
+$StandardResponse: #e6e5eb
+$Radius : 1em
+$ItemBG : #ffffff
 $BotImgSize : 70px
 $UsrImgSize : 40px
 
 .card
-    border-radius: $Radius !important
-    background-color: $ItemBG !important
+
 
 .msg_card_body
     overflow-y: auto
 
 .card-header
-    border-radius: $Radius $Radius 0 0 !important
-    border-bottom: 0 !important
+  background-color: $StandardColor
+
 
 .card-footer
-    border-radius: 0 0 $Radius $Radius !important
-    border-top: 0 !important
+  background-color: $StandardColor
+
 
 .container
     align-content: center
@@ -27,7 +25,7 @@ $UsrImgSize : 40px
 =sharebox
     background-color: $ItemBG !important
     border: 0 !important
-    color: white !important
+    color: black !important
 
 .type_msg
     +sharebox
@@ -74,55 +72,50 @@ $UsrImgSize : 40px
 .img_cont_msg
     +imgFormat($UsrImgSize)
 
-.online_icon
-    position: absolute
-    +imgFormat($Radius)
-    background-color: #4cd137
-    border-radius: 50%
-    bottom: 0.2em
-    right: 0.4em
-    border: 1.5px solid white
+
 
 .user_info
-    margin-top: auto
-    margin-bottom: auto
-    margin-left: $Radius
     span
-        font-size: 20px
+        font-size: 1.4em
         color: white
     p
-        font-size: 10px
+        font-size: 0.6em
         color: rgba(255,255,255,0.6)
 
 =msgCont($color)
+    padding: 15px 10px
+    min-width: 120px
     margin-top: auto
-    margin-bottom: auto
-    margin-left: 10px
-    border-radius: 25px
+    margin: 5px
     background-color: $color
-    padding: 10px
     position: relative
+    font-family: monospace Arial, Helvetica, sans-serif
 
 .msg_cotainer
-    +msgCont(#82ccdd)
+    color: black
+    border-radius: 1px 1.25em 1.25em 1.25em
+    +msgCont($StandardResponse)
 
 .msg_cotainer_send
-    +msgCont(#78e08f)
+    color: white
+    border-radius: 1.25em 1px 1.25em 1.25em
+    +msgCont($StandardColor)
 
 =msgTime
     position: absolute
-    bottom: -$Radius
-    color: rgba(255,255,255,0.5)
-    font-size: 10px
+    bottom: -$Radius *2
+    color: #00000080
+    font-size: 0.6em
 
 .msg_time
     +msgTime
     left: 0
 
+
 .msg_time_send
     +msgTime
     right: 0
-    
+
 .msg_head
     position: relative
 
