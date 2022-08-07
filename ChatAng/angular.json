@@ -120,5 +120,8 @@
         }
       }
     }},
-  "defaultProject": "ChatAng"
+  "defaultProject": "ChatAng",
+  "cli": {
+    "analytics": false
+  }
 }
