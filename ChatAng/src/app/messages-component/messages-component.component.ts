@@ -2,8 +2,8 @@ import { Component, OnInit, AfterViewChecked, ElementRef, ViewChild, } from '@an
 import {ChatInterfaceService} from '../chat-interface.service';
 import { ChatResponse } from '../chat-response';
 import {ChatInterface} from '../chat-interface';
-import { ChangeDetectionStrategy } from '@angular/compiler/src/compiler_facade_interface';
-import { Message } from '@angular/compiler/src/i18n/i18n_ast';
+//import { ChangeDetectionStrategy } from '@angular/compiler/src/compiler_facade_interface';
+//import { Message } from '@angular/compiler/src/i18n/i18n_ast';
 
 @Component({
   selector: 'app-messages-component',
@@ -22,16 +22,16 @@ Counter : number = 0
   constructor(private botService: ChatInterfaceService) { }
 
   ngOnInit(): void {
-    this.scrollToBottom(); 
+    this.scrollToBottom();
   }
-  ngAfterViewChecked() {        
-    this.scrollToBottom();        
-} 
+  ngAfterViewChecked() {
+    this.scrollToBottom();
+}
 
 scrollToBottom(): void {
     try {
         this.myScrollContainer.nativeElement.scrollTop = this.myScrollContainer.nativeElement.scrollHeight;
-    } catch(err) { }                 
+    } catch(err) { }
 }
 
   sendMessage(message: string){
@@ -45,5 +45,5 @@ this.messageText = "";
   TalkToBot(message) {
     this.botService.Talk(message).subscribe((data: ChatResponse) => { this.messages.push({timestamp: new Date(), Message: data.response, UserIsHuman: false})});
   }
-  
+
 }
