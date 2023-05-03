@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1683154304167,
+  "timestamp": 1683154712745,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -56,7 +56,7 @@
     "/assets/images/msrobot.png": "ad741ba40e563022fdea5ae8cc7b8a12e8da58e7",
     "/assets/images/user.png": "337df0e5e56a98fe416ed598fccdddb21da577d8",
     "/favicon.ico": "541f5a9e09c970677c8c36d997e235d4c50b63b0",
-    "/index.html": "194a9090afc8cf9f48dab74a5e1a7945b519fb81",
+    "/index.html": "d9b038602503ef276b62c0adcad07652a08a1821",
     "/main.e1ba181974940817.js": "a68b73f97841d9042df5360c3bd9758f38155cd0",
     "/manifest.webmanifest": "28164d5cf77ca43b7dec0400aae8312343ed48e4",
     "/polyfills.878223e5b56ac98e.js": "5a21cb4ca31307d99dd2dbc15e9b86d0b540f0f6",
