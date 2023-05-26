@@ -1,0 +1,1 @@
+{"version":3,"sources":["./src/styles.sass"],"sourcesContent":["body,html\r\n    height: 100%\r\n    margin: 0\r\n    background-color: #fdfdfd\r\n"],"mappings":"AAAA,UACI,YADJ,SAGI","names":[],"sourceRoot":"webpack:///","file":"styles.css","x_google_ignoreList":[]}
