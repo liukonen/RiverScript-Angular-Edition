@@ -36,8 +36,8 @@ dependencies:
     specifier: ~7.8.0
     version: 7.8.1
   terser:
-    specifier: ~5.19.0
-    version: 5.19.4
+    specifier: ~5.20.0
+    version: 5.20.0
   zone.js:
     specifier: ~0.13.0
     version: 0.13.3
@@ -175,7 +175,7 @@ packages:
       tree-kill: 1.2.2
       tslib: 2.6.1
       typescript: 5.1.6
-      vite: 4.4.7(@types/node@20.6.1)(less@4.1.3)(terser@5.19.4)
+      vite: 4.4.7(@types/node@20.6.1)(less@4.1.3)(terser@5.20.0)
       webpack: 5.88.2(esbuild@0.18.17)
       webpack-dev-middleware: 6.1.1(webpack@5.88.2)
       webpack-dev-server: 4.15.1(webpack@5.88.2)
@@ -2279,7 +2279,7 @@ packages:
     peerDependencies:
       vite: ^3.0.0 || ^4.0.0
     dependencies:
-      vite: 4.4.7(@types/node@20.6.1)(less@4.1.3)(terser@5.19.4)
+      vite: 4.4.7(@types/node@20.6.1)(less@4.1.3)(terser@5.20.0)
     dev: true
 
   /@webassemblyjs/ast@1.11.6:
@@ -6180,7 +6180,7 @@ packages:
       jest-worker: 27.5.1
       schema-utils: 3.3.0
       serialize-javascript: 6.0.1
-      terser: 5.19.4
+      terser: 5.20.0
       webpack: 5.88.2(esbuild@0.18.17)
     dev: true
 
@@ -6195,8 +6195,8 @@ packages:
       source-map-support: 0.5.21
     dev: true
 
-  /terser@5.19.4:
-    resolution: {integrity: sha512-6p1DjHeuluwxDXcuT9VR8p64klWJKo1ILiy19s6C9+0Bh2+NWTX6nD9EPppiER4ICkHDVB1RkVpin/YW2nQn/g==}
+  /terser@5.20.0:
+    resolution: {integrity: sha512-e56ETryaQDyebBwJIWYB2TT6f2EZ0fL0sW/JRXNMN26zZdKi2u/E/5my5lG6jNxym6qsrVXfFRmOdV42zlAgLQ==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
@@ -6489,7 +6489,7 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /vite@4.4.7(@types/node@20.6.1)(less@4.1.3)(terser@5.19.4):
+  /vite@4.4.7(@types/node@20.6.1)(less@4.1.3)(terser@5.20.0):
     resolution: {integrity: sha512-6pYf9QJ1mHylfVh39HpuSfMPojPSKVxZvnclX1K1FyZ1PXDOcLBibdq5t1qxJSnL63ca8Wf4zts6mD8u8oc9Fw==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
@@ -6522,7 +6522,7 @@ packages:
       less: 4.1.3
       postcss: 8.4.27
       rollup: 3.29.2
-      terser: 5.19.4
+      terser: 5.20.0
     optionalDependencies:
       fsevents: 2.3.3
     dev: true
