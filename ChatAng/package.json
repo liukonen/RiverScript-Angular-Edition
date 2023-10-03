@@ -21,7 +21,7 @@
     "@angular/router": "~16.2.0",
     "@angular/service-worker": "~16.2.0",
     "rxjs": "~7.8.0",
-    "terser": "~5.20.0",
+    "terser": "~5.21.0",
     "zone.js": "~0.13.0"
   },
   "devDependencies": {
