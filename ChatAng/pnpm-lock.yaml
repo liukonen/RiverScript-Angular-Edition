@@ -16,7 +16,7 @@ dependencies:
     version: 16.2.5(@angular/core@16.2.5)
   '@angular/core':
     specifier: ~16.2.0
-    version: 16.2.5(rxjs@7.8.1)(zone.js@0.13.3)
+    version: 16.2.5(rxjs@7.8.1)(zone.js@0.14.0)
   '@angular/forms':
     specifier: ~16.2.0
     version: 16.2.5(@angular/common@16.2.5)(@angular/core@16.2.5)(@angular/platform-browser@16.2.5)(rxjs@7.8.1)
@@ -39,8 +39,8 @@ dependencies:
     specifier: ~5.21.0
     version: 5.21.0
   zone.js:
-    specifier: ~0.13.0
-    version: 0.13.3
+    specifier: ~0.14.0
+    version: 0.14.0
 
 devDependencies:
   '@angular-devkit/build-angular':
@@ -254,7 +254,7 @@ packages:
     peerDependencies:
       '@angular/core': 16.2.5
     dependencies:
-      '@angular/core': 16.2.5(rxjs@7.8.1)(zone.js@0.13.3)
+      '@angular/core': 16.2.5(rxjs@7.8.1)(zone.js@0.14.0)
       tslib: 2.6.2
     dev: false
 
@@ -294,7 +294,7 @@ packages:
       '@angular/core': 16.2.5
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
-      '@angular/core': 16.2.5(rxjs@7.8.1)(zone.js@0.13.3)
+      '@angular/core': 16.2.5(rxjs@7.8.1)(zone.js@0.14.0)
       rxjs: 7.8.1
       tslib: 2.6.2
 
@@ -329,10 +329,10 @@ packages:
       '@angular/core':
         optional: true
     dependencies:
-      '@angular/core': 16.2.5(rxjs@7.8.1)(zone.js@0.13.3)
+      '@angular/core': 16.2.5(rxjs@7.8.1)(zone.js@0.14.0)
       tslib: 2.6.2
 
-  /@angular/core@16.2.5(rxjs@7.8.1)(zone.js@0.13.3):
+  /@angular/core@16.2.5(rxjs@7.8.1)(zone.js@0.14.0):
     resolution: {integrity: sha512-Po2LMUnPg23D2qI7EYaoA4x3lRswx9nxfpwROzfFPbMNJ3JVbTK0HkTD2dFPGxRua2UjfJTb1um23tEGO4OGMQ==}
     engines: {node: ^16.14.0 || >=18.10.0}
     peerDependencies:
@@ -341,7 +341,7 @@ packages:
     dependencies:
       rxjs: 7.8.1
       tslib: 2.6.2
-      zone.js: 0.13.3
+      zone.js: 0.14.0
 
   /@angular/forms@16.2.5(@angular/common@16.2.5)(@angular/core@16.2.5)(@angular/platform-browser@16.2.5)(rxjs@7.8.1):
     resolution: {integrity: sha512-iYJImRji1OiYIcC2mDBcXhtvPfAoEGT+HqZpivu+/ZPLuf+QegC9+ktJw90SQXR+xccmpkUb9MsJ52SN2MgkPA==}
@@ -353,7 +353,7 @@ packages:
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
       '@angular/common': 16.2.5(@angular/core@16.2.5)(rxjs@7.8.1)
-      '@angular/core': 16.2.5(rxjs@7.8.1)(zone.js@0.13.3)
+      '@angular/core': 16.2.5(rxjs@7.8.1)(zone.js@0.14.0)
       '@angular/platform-browser': 16.2.5(@angular/animations@16.2.5)(@angular/common@16.2.5)(@angular/core@16.2.5)
       rxjs: 7.8.1
       tslib: 2.6.2
@@ -370,7 +370,7 @@ packages:
     dependencies:
       '@angular/common': 16.2.5(@angular/core@16.2.5)(rxjs@7.8.1)
       '@angular/compiler': 16.2.5(@angular/core@16.2.5)
-      '@angular/core': 16.2.5(rxjs@7.8.1)(zone.js@0.13.3)
+      '@angular/core': 16.2.5(rxjs@7.8.1)(zone.js@0.14.0)
       '@angular/platform-browser': 16.2.5(@angular/animations@16.2.5)(@angular/common@16.2.5)(@angular/core@16.2.5)
       tslib: 2.6.2
     dev: false
@@ -388,7 +388,7 @@ packages:
     dependencies:
       '@angular/animations': 16.2.5(@angular/core@16.2.5)
       '@angular/common': 16.2.5(@angular/core@16.2.5)(rxjs@7.8.1)
-      '@angular/core': 16.2.5(rxjs@7.8.1)(zone.js@0.13.3)
+      '@angular/core': 16.2.5(rxjs@7.8.1)(zone.js@0.14.0)
       tslib: 2.6.2
     dev: false
 
@@ -402,7 +402,7 @@ packages:
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
       '@angular/common': 16.2.5(@angular/core@16.2.5)(rxjs@7.8.1)
-      '@angular/core': 16.2.5(rxjs@7.8.1)(zone.js@0.13.3)
+      '@angular/core': 16.2.5(rxjs@7.8.1)(zone.js@0.14.0)
       '@angular/platform-browser': 16.2.5(@angular/animations@16.2.5)(@angular/common@16.2.5)(@angular/core@16.2.5)
       rxjs: 7.8.1
       tslib: 2.6.2
@@ -417,7 +417,7 @@ packages:
       '@angular/core': 16.2.5
     dependencies:
       '@angular/common': 16.2.5(@angular/core@16.2.5)(rxjs@7.8.1)
-      '@angular/core': 16.2.5(rxjs@7.8.1)(zone.js@0.13.3)
+      '@angular/core': 16.2.5(rxjs@7.8.1)(zone.js@0.14.0)
       tslib: 2.6.2
 
   /@assemblyscript/loader@0.10.1:
@@ -2398,7 +2398,7 @@ packages:
       chalk: 4.1.2
       jsdom: 16.7.0
       object-path: 0.11.8
-      tslib: 2.6.1
+      tslib: 2.6.2
       typescript: 5.1.6
     transitivePeerDependencies:
       - bufferutil
@@ -4503,7 +4503,7 @@ packages:
     dependencies:
       copy-anything: 2.0.6
       parse-node-version: 1.0.1
-      tslib: 2.6.1
+      tslib: 2.6.2
     optionalDependencies:
       errno: 0.1.8
       graceful-fs: 4.2.11
@@ -6876,7 +6876,7 @@ packages:
     engines: {node: '>=12.20'}
     dev: true
 
-  /zone.js@0.13.3:
-    resolution: {integrity: sha512-MKPbmZie6fASC/ps4dkmIhaT5eonHkEt6eAy80K42tAm0G2W+AahLJjbfi6X9NPdciOE9GRFTTM8u2IiF6O3ww==}
+  /zone.js@0.14.0:
+    resolution: {integrity: sha512-Sz0G0TjMuyApIcuTJeK742+xLLKEPjYtkdBEazBlYePHkICVp9DPKqI/4dJt3LCtQBd52sCxz23uAFJ2OJa6Ow==}
     dependencies:
       tslib: 2.6.2
