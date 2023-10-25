@@ -11,24 +11,25 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "~16.2.10",
-    "@angular/common": "~16.2.10",
-    "@angular/compiler": "~16.2.10",
-    "@angular/core": "~16.2.10",
-    "@angular/forms": "~16.2.10",
-    "@angular/platform-browser": "~16.2.10",
-    "@angular/platform-browser-dynamic": "~16.2.10",
-    "@angular/router": "~16.2.10",
-    "@angular/service-worker": "~16.2.10",
+    "@angular/animations": "~16.2.11",
+    "@angular/common": "~16.2.11",
+    "@angular/compiler": "~16.2.11",
+    "@angular/core": "~16.2.11",
+    "@angular/forms": "~16.2.11",
+    "@angular/platform-browser": "~16.2.11",
+    "@angular/platform-browser-dynamic": "~16.2.11",
+    "@angular/router": "~16.2.11",
+    "@angular/service-worker": "~16.2.11",
     "rxjs": "~7.8.1",
     "terser": "~5.22.0",
     "zone.js": "~0.14.0"
   },
   "devDependencies": {
-    "@angular-devkit/build-angular": "^16.2.7",
-    "@angular/cli": "~16.2.7",
-    "@angular/compiler-cli": "~16.2.10",
-    "ts-node": "~10.9.1"
+    "@angular-devkit/build-angular": "^16.2.8",
+    "@angular/cli": "~16.2.8",
+    "@angular/compiler-cli": "~16.2.11",
+    "ts-node": "~10.9.1",
+    "tslib": "^2.6.2"
   },
   "overrides": {
     "xml2js": "~0.6.0"
