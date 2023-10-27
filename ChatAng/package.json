@@ -22,7 +22,7 @@
     "@angular/service-worker": "~16.2.11",
     "rxjs": "~7.8.1",
     "terser": "~5.22.0",
-    "zone.js": "~0.14.0"
+    "zone.js": "~0.14.1"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^16.2.8",
