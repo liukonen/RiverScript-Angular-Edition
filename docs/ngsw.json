@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1699490822099,
+  "timestamp": 1700090739409,
   "index": "/index.html",
   "assetGroups": [
     {
@@ -13,9 +13,9 @@
       "urls": [
         "/favicon.ico",
         "/index.html",
-        "/main.1b9276c39fe645d8.js",
+        "/main.e6d942338bb2c536.js",
         "/manifest.webmanifest",
-        "/polyfills.f8beb6f762216519.js",
+        "/polyfills.5978e32062a850c8.js",
         "/runtime.79c64590086e6db4.js",
         "/styles.eccc13bce21ea94f.css"
       ],
@@ -56,10 +56,10 @@
     "/assets/images/msrobot.png": "ad741ba40e563022fdea5ae8cc7b8a12e8da58e7",
     "/assets/images/user.png": "337df0e5e56a98fe416ed598fccdddb21da577d8",
     "/favicon.ico": "541f5a9e09c970677c8c36d997e235d4c50b63b0",
-    "/index.html": "476750cb38ecf609bb4067149ac1d57962119670",
-    "/main.1b9276c39fe645d8.js": "7fcc27c5de5db3ce8dc2dc4e95de77b7258ecabf",
+    "/index.html": "f54fb08cbdb9cd541b3c97dc1bf29215671c9597",
+    "/main.e6d942338bb2c536.js": "cfc8700c0edd1ebdff0eb6518fc357bd62127b33",
     "/manifest.webmanifest": "28164d5cf77ca43b7dec0400aae8312343ed48e4",
-    "/polyfills.f8beb6f762216519.js": "76dfd9649f22f4e9dc852bab05c5a9ef3661a8d0",
+    "/polyfills.5978e32062a850c8.js": "783d9211bc00e00b951498fce8510fa6b27b5372",
     "/runtime.79c64590086e6db4.js": "72bcef376ab43498e9198b9d0541a542565cb189",
     "/styles.eccc13bce21ea94f.css": "0715bd9498e177b14ef2d93c503b85d9962ea558"
   },
