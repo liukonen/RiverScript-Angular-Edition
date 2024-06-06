@@ -20,7 +20,7 @@ dependencies:
     version: 18.0.2(@angular/core@18.0.2)
   '@angular/core':
     specifier: ~18.0.2
-    version: 18.0.2(rxjs@7.8.1)(zone.js@0.14.6)
+    version: 18.0.2(rxjs@7.8.1)(zone.js@0.14.7)
   '@angular/forms':
     specifier: ~18.0.2
     version: 18.0.2(@angular/common@18.0.2)(@angular/core@18.0.2)(@angular/platform-browser@18.0.2)(rxjs@7.8.1)
@@ -44,7 +44,7 @@ dependencies:
     version: 5.31.0
   zone.js:
     specifier: ~0.14.4
-    version: 0.14.6
+    version: 0.14.7
 
 devDependencies:
   '@angular-devkit/build-angular':
@@ -263,7 +263,7 @@ packages:
     peerDependencies:
       '@angular/core': 18.0.2
     dependencies:
-      '@angular/core': 18.0.2(rxjs@7.8.1)(zone.js@0.14.6)
+      '@angular/core': 18.0.2(rxjs@7.8.1)(zone.js@0.14.7)
       tslib: 2.6.3
     dev: false
 
@@ -368,7 +368,7 @@ packages:
       '@angular/core': 18.0.2
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
-      '@angular/core': 18.0.2(rxjs@7.8.1)(zone.js@0.14.6)
+      '@angular/core': 18.0.2(rxjs@7.8.1)(zone.js@0.14.7)
       rxjs: 7.8.1
       tslib: 2.6.3
 
@@ -403,10 +403,10 @@ packages:
       '@angular/core':
         optional: true
     dependencies:
-      '@angular/core': 18.0.2(rxjs@7.8.1)(zone.js@0.14.6)
+      '@angular/core': 18.0.2(rxjs@7.8.1)(zone.js@0.14.7)
       tslib: 2.6.3
 
-  /@angular/core@18.0.2(rxjs@7.8.1)(zone.js@0.14.6):
+  /@angular/core@18.0.2(rxjs@7.8.1)(zone.js@0.14.7):
     resolution: {integrity: sha512-5VtFaYz97X9sQpxRuFUBKu2gqgFVU/Obgk/Q8ZRw+TBhFnU4e9NFod7dtAJH9scCOWZYnU07+aeI6ChiRSKrZw==}
     engines: {node: ^18.19.1 || ^20.11.1 || >=22.0.0}
     peerDependencies:
@@ -415,7 +415,7 @@ packages:
     dependencies:
       rxjs: 7.8.1
       tslib: 2.6.3
-      zone.js: 0.14.6
+      zone.js: 0.14.7
 
   /@angular/forms@18.0.2(@angular/common@18.0.2)(@angular/core@18.0.2)(@angular/platform-browser@18.0.2)(rxjs@7.8.1):
     resolution: {integrity: sha512-AGuQVav7wbX6pRhjeE6c45dlWnhb+93ZHHBRT02Wg1PRyrgmebpoLAtiUmAR/YhR45zD6Q9o7fg/076+bnIcdQ==}
@@ -427,7 +427,7 @@ packages:
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
       '@angular/common': 18.0.2(@angular/core@18.0.2)(rxjs@7.8.1)
-      '@angular/core': 18.0.2(rxjs@7.8.1)(zone.js@0.14.6)
+      '@angular/core': 18.0.2(rxjs@7.8.1)(zone.js@0.14.7)
       '@angular/platform-browser': 18.0.2(@angular/animations@18.0.2)(@angular/common@18.0.2)(@angular/core@18.0.2)
       rxjs: 7.8.1
       tslib: 2.6.3
@@ -444,7 +444,7 @@ packages:
     dependencies:
       '@angular/common': 18.0.2(@angular/core@18.0.2)(rxjs@7.8.1)
       '@angular/compiler': 18.0.2(@angular/core@18.0.2)
-      '@angular/core': 18.0.2(rxjs@7.8.1)(zone.js@0.14.6)
+      '@angular/core': 18.0.2(rxjs@7.8.1)(zone.js@0.14.7)
       '@angular/platform-browser': 18.0.2(@angular/animations@18.0.2)(@angular/common@18.0.2)(@angular/core@18.0.2)
       tslib: 2.6.3
     dev: false
@@ -462,7 +462,7 @@ packages:
     dependencies:
       '@angular/animations': 18.0.2(@angular/core@18.0.2)
       '@angular/common': 18.0.2(@angular/core@18.0.2)(rxjs@7.8.1)
-      '@angular/core': 18.0.2(rxjs@7.8.1)(zone.js@0.14.6)
+      '@angular/core': 18.0.2(rxjs@7.8.1)(zone.js@0.14.7)
       tslib: 2.6.3
     dev: false
 
@@ -476,7 +476,7 @@ packages:
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
       '@angular/common': 18.0.2(@angular/core@18.0.2)(rxjs@7.8.1)
-      '@angular/core': 18.0.2(rxjs@7.8.1)(zone.js@0.14.6)
+      '@angular/core': 18.0.2(rxjs@7.8.1)(zone.js@0.14.7)
       '@angular/platform-browser': 18.0.2(@angular/animations@18.0.2)(@angular/common@18.0.2)(@angular/core@18.0.2)
       rxjs: 7.8.1
       tslib: 2.6.3
@@ -491,7 +491,7 @@ packages:
       '@angular/core': 18.0.2
     dependencies:
       '@angular/common': 18.0.2(@angular/core@18.0.2)(rxjs@7.8.1)
-      '@angular/core': 18.0.2(rxjs@7.8.1)(zone.js@0.14.6)
+      '@angular/core': 18.0.2(rxjs@7.8.1)(zone.js@0.14.7)
       tslib: 2.6.3
 
   /@babel/code-frame@7.24.7:
@@ -5019,8 +5019,6 @@ packages:
     peerDependenciesMeta:
       webpack:
         optional: true
-      webpack-sources:
-        optional: true
     dependencies:
       webpack: 5.91.0(esbuild@0.21.3)
       webpack-sources: 3.2.3
@@ -7280,5 +7278,5 @@ packages:
     engines: {node: '>=12.20'}
     dev: true
 
-  /zone.js@0.14.6:
-    resolution: {integrity: sha512-vyRNFqofdaHVdWAy7v3Bzmn84a1JHWSjpuTZROT/uYn8I3p2cmo7Ro9twFmYRQDPhiYOV7QLk0hhY4JJQVqS6Q==}
+  /zone.js@0.14.7:
+    resolution: {integrity: sha512-0w6DGkX2BPuiK/NLf+4A8FLE43QwBfuqz2dVgi/40Rj1WmqUskCqj329O/pwrqFJLG5X8wkeG2RhIAro441xtg==}
