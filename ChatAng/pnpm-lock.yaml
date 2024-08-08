@@ -41,7 +41,7 @@ dependencies:
     version: 7.8.1
   terser:
     specifier: ~5.31.1
-    version: 5.31.4
+    version: 5.31.5
   zone.js:
     specifier: ~0.14.7
     version: 0.14.10
@@ -183,7 +183,7 @@ packages:
       tslib: 2.6.3
       typescript: 5.5.4
       undici: 6.19.2
-      vite: 5.3.2(@types/node@22.1.0)(less@4.2.0)(terser@5.31.4)
+      vite: 5.3.2(@types/node@22.1.0)(less@4.2.0)(terser@5.31.5)
       watchpack: 2.4.1
       webpack: 5.92.1(esbuild@0.21.5)
       webpack-dev-middleware: 7.2.1(webpack@5.92.1)
@@ -2983,7 +2983,7 @@ packages:
     peerDependencies:
       vite: ^3.0.0 || ^4.0.0 || ^5.0.0
     dependencies:
-      vite: 5.3.2(@types/node@22.1.0)(less@4.2.0)(terser@5.31.4)
+      vite: 5.3.2(@types/node@22.1.0)(less@4.2.0)(terser@5.31.5)
     dev: true
 
   /@webassemblyjs/ast@1.12.1:
@@ -6712,7 +6712,7 @@ packages:
       jest-worker: 27.5.1
       schema-utils: 3.3.0
       serialize-javascript: 6.0.2
-      terser: 5.31.4
+      terser: 5.31.5
       webpack: 5.92.1(esbuild@0.21.5)
     dev: true
 
@@ -6727,8 +6727,8 @@ packages:
       source-map-support: 0.5.21
     dev: true
 
-  /terser@5.31.4:
-    resolution: {integrity: sha512-3OU03GgblDgu0g+sdnsVzhBPxnjV+WJuMmocN1qBBZDQ3ia7jZQSAkePeKbPlYAejGXUTYe1CmSaUeV51mvaIw==}
+  /terser@5.31.5:
+    resolution: {integrity: sha512-YPmas0L0rE1UyLL/llTWA0SiDOqIcAQYLeUj7cJYzXHlRTAnMSg9pPe4VJ5PlKvTrPQsdVFuiRiwyeNlYgwh2Q==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
@@ -7007,7 +7007,7 @@ packages:
       fsevents: 2.3.3
     dev: true
 
-  /vite@5.3.2(@types/node@22.1.0)(less@4.2.0)(terser@5.31.4):
+  /vite@5.3.2(@types/node@22.1.0)(less@4.2.0)(terser@5.31.5):
     resolution: {integrity: sha512-6lA7OBHBlXUxiJxbO5aAY2fsHHzDr1q7DvXYnyZycRs2Dz+dXBWuhpWHvmljTRTpQC2uvGmUFFkSHF2vGo90MA==}
     engines: {node: ^18.0.0 || >=20.0.0}
     hasBin: true
@@ -7040,7 +7040,7 @@ packages:
       less: 4.2.0
       postcss: 8.4.38
       rollup: 4.20.0
-      terser: 5.31.4
+      terser: 5.31.5
     optionalDependencies:
       fsevents: 2.3.3
     dev: true
