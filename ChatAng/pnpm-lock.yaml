@@ -44,8 +44,8 @@ dependencies:
     specifier: ~7.8.1
     version: 7.8.1
   terser:
-    specifier: ~5.37.0
-    version: 5.37.0
+    specifier: ~5.38.0
+    version: 5.38.0
   zone.js:
     specifier: ~0.15.0
     version: 0.15.0
@@ -3058,7 +3058,7 @@ packages:
     peerDependencies:
       vite: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0
     dependencies:
-      vite: 6.0.11(@types/node@22.12.0)(less@4.2.1)(sass@1.83.1)(terser@5.37.0)
+      vite: 6.0.11(@types/node@22.12.0)(less@4.2.1)(terser@5.38.0)
     dev: true
 
   /@webassemblyjs/ast@1.14.1:
@@ -3196,7 +3196,7 @@ packages:
     resolution: {integrity: sha512-MxXdReSRhGO7VlFe1bRG/oI7/mdLV9B9JJT0N8vZOhF7gFRR5l3M8W9G8JxmKV+JC5mGqJ0QvqfSOLsCPa4nUw==}
     engines: {node: '>=0.4.0'}
     dependencies:
-      acorn: 8.12.0
+      acorn: 8.14.0
     dev: true
 
   /acorn@8.12.0:
@@ -6721,12 +6721,23 @@ packages:
       jest-worker: 27.5.1
       schema-utils: 4.3.0
       serialize-javascript: 6.0.2
-      terser: 5.37.0
+      terser: 5.38.0
       webpack: 5.97.1(esbuild@0.24.2)
     dev: true
 
   /terser@5.37.0:
     resolution: {integrity: sha512-B8wRRkmre4ERucLM/uXx4MOV5cbnOlVAqUst+1+iLKPI0dOgFO28f84ptoQt9HEI537PMzfYa/d+GEPKTRXmYA==}
+    engines: {node: '>=10'}
+    hasBin: true
+    dependencies:
+      '@jridgewell/source-map': 0.3.6
+      acorn: 8.14.0
+      commander: 2.20.3
+      source-map-support: 0.5.21
+    dev: true
+
+  /terser@5.38.0:
+    resolution: {integrity: sha512-a4GD5R1TjEeuCT6ZRiYMHmIf7okbCPEuhQET8bczV6FrQMMlFXA1n+G0KKjdlFCm3TEHV77GxfZB3vZSUQGFpg==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
@@ -6999,6 +7010,56 @@ packages:
       rollup: 4.30.1
       sass: 1.83.1
       terser: 5.37.0
+    optionalDependencies:
+      fsevents: 2.3.3
+    dev: true
+
+  /vite@6.0.11(@types/node@22.12.0)(less@4.2.1)(terser@5.38.0):
+    resolution: {integrity: sha512-4VL9mQPKoHy4+FE0NnRE/kbY51TOfaknxAjt3fJbGJxhIpBZiqVzlZDEesWWsuREXHwNdAoOFZ9MkPEVXczHwg==}
+    engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
+    hasBin: true
+    peerDependencies:
+      '@types/node': ^18.0.0 || ^20.0.0 || >=22.0.0
+      jiti: '>=1.21.0'
+      less: '*'
+      lightningcss: ^1.21.0
+      sass: '*'
+      sass-embedded: '*'
+      stylus: '*'
+      sugarss: '*'
+      terser: ^5.16.0
+      tsx: ^4.8.1
+      yaml: ^2.4.2
+    peerDependenciesMeta:
+      '@types/node':
+        optional: true
+      jiti:
+        optional: true
+      less:
+        optional: true
+      lightningcss:
+        optional: true
+      sass:
+        optional: true
+      sass-embedded:
+        optional: true
+      stylus:
+        optional: true
+      sugarss:
+        optional: true
+      terser:
+        optional: true
+      tsx:
+        optional: true
+      yaml:
+        optional: true
+    dependencies:
+      '@types/node': 22.12.0
+      esbuild: 0.24.2
+      less: 4.2.1
+      postcss: 8.4.49
+      rollup: 4.30.1
+      terser: 5.38.0
     optionalDependencies:
       fsevents: 2.3.3
     dev: true
