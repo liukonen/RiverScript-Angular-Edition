@@ -20,14 +20,14 @@
     "@angular/platform-browser": "~19.2.0",
     "@angular/platform-browser-dynamic": "~19.2.0",
     "@angular/router": "~19.2.0",
-    "@angular/service-worker": "^19.0.0",
+    "@angular/service-worker": "^19.2.0",
     "rxjs": "~7.8.1",
     "terser": "~5.39.0",
     "zone.js": "~0.15.0"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^19.0.0",
-    "@angular/cli": "~19.1.0",
+    "@angular/cli": "19.2.0",
     "@angular/compiler-cli": "~19.2.0",
     "ts-node": "~10.9.2",
     "tslib": "^2.6.3"
@@ -39,7 +39,8 @@
       "body-parser": "^1.20.3",
       "serve-static": "^1.16.0",
       "express": "^4.20.0",
-      "path-to-regexp": "^8.0.0"
+      "path-to-regexp": "^8.0.0",
+      "esbuild": "^0.25.0"
     }
   }
 }

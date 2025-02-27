@@ -6,9 +6,10 @@ import {ChatInterface} from '../chat-interface';
 //import { Message } from '@angular/compiler/src/i18n/i18n_ast';
 
 @Component({
-  selector: 'app-messages-component',
-  templateUrl: './messages-component.component.html',
-  styleUrls: ['./messages-component.component.sass']
+    selector: 'app-messages-component',
+    templateUrl: './messages-component.component.html',
+    styleUrls: ['./messages-component.component.sass'],
+    standalone: false
 })
 
 
