@@ -27,7 +27,7 @@
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "^19.0.0",
-    "@angular/cli": "19.2.11",
+    "@angular/cli": "19.2.12",
     "@angular/compiler-cli": "~19.2.0",
     "ts-node": "~10.9.2",
     "tslib": "^2.6.3"
