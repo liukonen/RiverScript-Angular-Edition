@@ -45,8 +45,8 @@ dependencies:
     specifier: ~7.8.1
     version: 7.8.2
   terser:
-    specifier: ~5.43.0
-    version: 5.43.1
+    specifier: ~5.44.0
+    version: 5.44.0
   zone.js:
     specifier: ~0.15.0
     version: 0.15.1
@@ -482,7 +482,7 @@ packages:
       tinyglobby: 0.2.14
       tslib: 2.8.1
       typescript: 5.9.2
-      vite: 7.1.2(@types/node@24.3.0)(less@4.4.0)(sass@1.90.0)(terser@5.43.1)
+      vite: 7.1.2(@types/node@24.3.0)(less@4.4.0)(terser@5.44.0)
       watchpack: 2.4.4
     optionalDependencies:
       lmdb: 3.4.2
@@ -3516,7 +3516,7 @@ packages:
     peerDependencies:
       vite: ^6.0.0 || ^7.0.0
     dependencies:
-      vite: 7.1.2(@types/node@24.3.0)(less@4.4.0)(sass@1.90.0)(terser@5.43.1)
+      vite: 7.1.2(@types/node@24.3.0)(less@4.4.0)(terser@5.44.0)
     dev: true
 
   /@webassemblyjs/ast@1.14.1:
@@ -3671,7 +3671,7 @@ packages:
     resolution: {integrity: sha512-MxXdReSRhGO7VlFe1bRG/oI7/mdLV9B9JJT0N8vZOhF7gFRR5l3M8W9G8JxmKV+JC5mGqJ0QvqfSOLsCPa4nUw==}
     engines: {node: '>=0.4.0'}
     dependencies:
-      acorn: 8.12.0
+      acorn: 8.15.0
     dev: true
 
   /acorn@8.12.0:
@@ -7153,12 +7153,23 @@ packages:
       jest-worker: 27.5.1
       schema-utils: 4.3.2
       serialize-javascript: 6.0.2
-      terser: 5.43.1
+      terser: 5.44.0
       webpack: 5.101.2(esbuild@0.25.9)
     dev: true
 
   /terser@5.43.1:
     resolution: {integrity: sha512-+6erLbBm0+LROX2sPXlUYx/ux5PyE9K/a92Wrt6oA+WDAoFTdpHE5tCYCI5PNzq2y8df4rA+QgHLJuR4jNymsg==}
+    engines: {node: '>=10'}
+    hasBin: true
+    dependencies:
+      '@jridgewell/source-map': 0.3.6
+      acorn: 8.15.0
+      commander: 2.20.3
+      source-map-support: 0.5.21
+    dev: true
+
+  /terser@5.44.0:
+    resolution: {integrity: sha512-nIVck8DK+GM/0Frwd+nIhZ84pR/BX7rmXMfYwyg+Sri5oGVE99/E3KvXqpC2xHFxyqXyGHTKBSioxxplrO4I4w==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
@@ -7376,7 +7387,7 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /vite@7.1.2(@types/node@24.3.0)(less@4.4.0)(sass@1.90.0)(terser@5.43.1):
+  /vite@7.1.2(@types/node@24.3.0)(less@4.4.0)(terser@5.44.0):
     resolution: {integrity: sha512-J0SQBPlQiEXAF7tajiH+rUooJPo0l8KQgyg4/aMunNtrOa7bwuZJsJbDWzeljqQpgftxuq5yNJxQ91O9ts29UQ==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
@@ -7423,8 +7434,7 @@ packages:
       picomatch: 4.0.3
       postcss: 8.5.6
       rollup: 4.50.0
-      sass: 1.90.0
-      terser: 5.43.1
+      terser: 5.44.0
       tinyglobby: 0.2.14
     optionalDependencies:
       fsevents: 2.3.3
