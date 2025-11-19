@@ -15,32 +15,32 @@ overrides:
 
 dependencies:
   '@angular/animations':
-    specifier: ~20.3.0
-    version: 20.3.13(@angular/core@20.3.13)
+    specifier: ~21.0.0
+    version: 21.0.0(@angular/core@21.0.0)
   '@angular/common':
-    specifier: ~20.3.0
-    version: 20.3.13(@angular/core@20.3.13)(rxjs@7.8.2)
+    specifier: ~21.0.0
+    version: 21.0.0(@angular/core@21.0.0)(rxjs@7.8.2)
   '@angular/compiler':
-    specifier: ~20.3.0
-    version: 20.3.13
+    specifier: ~21.0.0
+    version: 21.0.0
   '@angular/core':
-    specifier: ~20.3.0
-    version: 20.3.13(@angular/compiler@20.3.13)(rxjs@7.8.2)(zone.js@0.15.1)
+    specifier: ~21.0.0
+    version: 21.0.0(@angular/compiler@21.0.0)(rxjs@7.8.2)(zone.js@0.15.1)
   '@angular/forms':
-    specifier: ~20.3.0
-    version: 20.3.13(@angular/common@20.3.13)(@angular/core@20.3.13)(@angular/platform-browser@20.3.13)(rxjs@7.8.2)
+    specifier: ~21.0.0
+    version: 21.0.0(@angular/common@21.0.0)(@angular/core@21.0.0)(@angular/platform-browser@21.0.0)(@standard-schema/spec@1.0.0)(rxjs@7.8.2)
   '@angular/platform-browser':
-    specifier: ~20.3.0
-    version: 20.3.13(@angular/animations@20.3.13)(@angular/common@20.3.13)(@angular/core@20.3.13)
+    specifier: ~21.0.0
+    version: 21.0.0(@angular/animations@21.0.0)(@angular/common@21.0.0)(@angular/core@21.0.0)
   '@angular/platform-browser-dynamic':
-    specifier: ~20.3.0
-    version: 20.3.13(@angular/common@20.3.13)(@angular/compiler@20.3.13)(@angular/core@20.3.13)(@angular/platform-browser@20.3.13)
+    specifier: ~21.0.0
+    version: 21.0.0(@angular/common@21.0.0)(@angular/compiler@21.0.0)(@angular/core@21.0.0)(@angular/platform-browser@21.0.0)
   '@angular/router':
-    specifier: ~20.3.0
-    version: 20.3.13(@angular/common@20.3.13)(@angular/core@20.3.13)(@angular/platform-browser@20.3.13)(rxjs@7.8.2)
+    specifier: ~21.0.0
+    version: 21.0.0(@angular/common@21.0.0)(@angular/core@21.0.0)(@angular/platform-browser@21.0.0)(rxjs@7.8.2)
   '@angular/service-worker':
-    specifier: ^20.0.0
-    version: 20.3.13(@angular/core@20.3.13)(rxjs@7.8.2)
+    specifier: ^21.0.0
+    version: 21.0.0(@angular/core@21.0.0)(rxjs@7.8.2)
   rxjs:
     specifier: ~7.8.1
     version: 7.8.2
@@ -54,13 +54,13 @@ dependencies:
 devDependencies:
   '@angular-devkit/build-angular':
     specifier: ^20.0.0
-    version: 20.3.11(@angular/compiler-cli@20.3.13)(@angular/compiler@20.3.13)(@angular/core@20.3.13)(@angular/platform-browser@20.3.13)(@angular/service-worker@20.3.13)(@types/node@24.10.1)(typescript@5.9.3)
+    version: 20.3.11(@angular/compiler-cli@21.0.0)(@angular/compiler@21.0.0)(@angular/core@21.0.0)(@angular/platform-browser@21.0.0)(@angular/service-worker@21.0.0)(@types/node@24.10.1)(typescript@5.9.3)
   '@angular/cli':
     specifier: 20.3.11
     version: 20.3.11(@types/node@24.10.1)
   '@angular/compiler-cli':
-    specifier: ~20.3.0
-    version: 20.3.13(@angular/compiler@20.3.13)(typescript@5.9.3)
+    specifier: ~21.0.0
+    version: 21.0.0(@angular/compiler@21.0.0)(typescript@5.9.3)
   ts-node:
     specifier: ~10.9.2
     version: 10.9.2(@types/node@24.10.1)(typescript@5.9.3)
@@ -214,7 +214,7 @@ packages:
       - chokidar
     dev: true
 
-  /@angular-devkit/build-angular@20.3.11(@angular/compiler-cli@20.3.13)(@angular/compiler@20.3.13)(@angular/core@20.3.13)(@angular/platform-browser@20.3.13)(@angular/service-worker@20.3.13)(@types/node@24.10.1)(typescript@5.9.3):
+  /@angular-devkit/build-angular@20.3.11(@angular/compiler-cli@21.0.0)(@angular/compiler@21.0.0)(@angular/core@21.0.0)(@angular/platform-browser@21.0.0)(@angular/service-worker@21.0.0)(@types/node@24.10.1)(typescript@5.9.3):
     resolution: {integrity: sha512-DCbyw/nnYxjZZHlHDnkShEeLTG7FxNppg3dMq3g+ClonTcjX4X+1TLD78UokM9idTsZikk+1A6WnOxZLDxFt2Q==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
     peerDependencies:
@@ -268,11 +268,11 @@ packages:
       '@angular-devkit/architect': 0.2003.11
       '@angular-devkit/build-webpack': 0.2003.11(webpack-dev-server@5.2.2)(webpack@5.101.2)
       '@angular-devkit/core': 20.3.11
-      '@angular/build': 20.3.11(@angular/compiler-cli@20.3.13)(@angular/compiler@20.3.13)(@angular/core@20.3.13)(@angular/platform-browser@20.3.13)(@angular/service-worker@20.3.13)(@types/node@24.10.1)(less@4.4.0)(postcss@8.5.6)(terser@5.43.1)(tslib@2.8.1)(typescript@5.9.3)
-      '@angular/compiler-cli': 20.3.13(@angular/compiler@20.3.13)(typescript@5.9.3)
-      '@angular/core': 20.3.13(@angular/compiler@20.3.13)(rxjs@7.8.2)(zone.js@0.15.1)
-      '@angular/platform-browser': 20.3.13(@angular/animations@20.3.13)(@angular/common@20.3.13)(@angular/core@20.3.13)
-      '@angular/service-worker': 20.3.13(@angular/core@20.3.13)(rxjs@7.8.2)
+      '@angular/build': 20.3.11(@angular/compiler-cli@21.0.0)(@angular/compiler@21.0.0)(@angular/core@21.0.0)(@angular/platform-browser@21.0.0)(@angular/service-worker@21.0.0)(@types/node@24.10.1)(less@4.4.0)(postcss@8.5.6)(terser@5.43.1)(tslib@2.8.1)(typescript@5.9.3)
+      '@angular/compiler-cli': 21.0.0(@angular/compiler@21.0.0)(typescript@5.9.3)
+      '@angular/core': 21.0.0(@angular/compiler@21.0.0)(rxjs@7.8.2)(zone.js@0.15.1)
+      '@angular/platform-browser': 21.0.0(@angular/animations@21.0.0)(@angular/common@21.0.0)(@angular/core@21.0.0)
+      '@angular/service-worker': 21.0.0(@angular/core@21.0.0)(rxjs@7.8.2)
       '@babel/core': 7.28.3
       '@babel/generator': 7.28.3
       '@babel/helper-annotate-as-pure': 7.27.3
@@ -283,7 +283,7 @@ packages:
       '@babel/preset-env': 7.28.3(@babel/core@7.28.3)
       '@babel/runtime': 7.28.3
       '@discoveryjs/json-ext': 0.6.3
-      '@ngtools/webpack': 20.3.11(@angular/compiler-cli@20.3.13)(typescript@5.9.3)(webpack@5.101.2)
+      '@ngtools/webpack': 20.3.11(@angular/compiler-cli@21.0.0)(typescript@5.9.3)(webpack@5.101.2)
       ansi-colors: 4.1.3
       autoprefixer: 10.4.21(postcss@8.5.6)
       babel-loader: 10.0.0(@babel/core@7.28.3)(webpack@5.101.2)
@@ -394,16 +394,16 @@ packages:
       - chokidar
     dev: true
 
-  /@angular/animations@20.3.13(@angular/core@20.3.13):
-    resolution: {integrity: sha512-IOiZlb+GK3p70J4vRe3PQ+NHCkoVYaq7fz9Pg2FcQ9Ar3EobVtHyFJFGzdStMFbiYR0B66STBNyZcz+V0AwC0A==}
+  /@angular/animations@21.0.0(@angular/core@21.0.0):
+    resolution: {integrity: sha512-9AX4HFJmSP8SFNiweKNxasBzn3zbL3xRtwaUxw1I+x/WAzubm4ZziLnXqb+tai7C4UmwV+9XDlRVPfw5WxJ9zg==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0}
     peerDependencies:
-      '@angular/core': 20.3.13
+      '@angular/core': 21.0.0
     dependencies:
-      '@angular/core': 20.3.13(@angular/compiler@20.3.13)(rxjs@7.8.2)(zone.js@0.15.1)
+      '@angular/core': 21.0.0(@angular/compiler@21.0.0)(rxjs@7.8.2)(zone.js@0.15.1)
       tslib: 2.8.1
 
-  /@angular/build@20.3.11(@angular/compiler-cli@20.3.13)(@angular/compiler@20.3.13)(@angular/core@20.3.13)(@angular/platform-browser@20.3.13)(@angular/service-worker@20.3.13)(@types/node@24.10.1)(less@4.4.0)(postcss@8.5.6)(terser@5.43.1)(tslib@2.8.1)(typescript@5.9.3):
+  /@angular/build@20.3.11(@angular/compiler-cli@21.0.0)(@angular/compiler@21.0.0)(@angular/core@21.0.0)(@angular/platform-browser@21.0.0)(@angular/service-worker@21.0.0)(@types/node@24.10.1)(less@4.4.0)(postcss@8.5.6)(terser@5.43.1)(tslib@2.8.1)(typescript@5.9.3):
     resolution: {integrity: sha512-0YJGRSXZeH3ncpyCZANN0jDdWaRhIOzKQ54+YcuA1uwLzTAUrla3CsJHSVk6ljItIRWymPuUMDRHjxWE/W6WbA==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
     peerDependencies:
@@ -451,11 +451,11 @@ packages:
     dependencies:
       '@ampproject/remapping': 2.3.0
       '@angular-devkit/architect': 0.2003.11
-      '@angular/compiler': 20.3.13
-      '@angular/compiler-cli': 20.3.13(@angular/compiler@20.3.13)(typescript@5.9.3)
-      '@angular/core': 20.3.13(@angular/compiler@20.3.13)(rxjs@7.8.2)(zone.js@0.15.1)
-      '@angular/platform-browser': 20.3.13(@angular/animations@20.3.13)(@angular/common@20.3.13)(@angular/core@20.3.13)
-      '@angular/service-worker': 20.3.13(@angular/core@20.3.13)(rxjs@7.8.2)
+      '@angular/compiler': 21.0.0
+      '@angular/compiler-cli': 21.0.0(@angular/compiler@21.0.0)(typescript@5.9.3)
+      '@angular/core': 21.0.0(@angular/compiler@21.0.0)(rxjs@7.8.2)(zone.js@0.15.1)
+      '@angular/platform-browser': 21.0.0(@angular/animations@21.0.0)(@angular/common@21.0.0)(@angular/core@21.0.0)
+      '@angular/service-worker': 21.0.0(@angular/core@21.0.0)(rxjs@7.8.2)
       '@babel/core': 7.28.3
       '@babel/helper-annotate-as-pure': 7.27.3
       '@babel/helper-split-export-declaration': 7.24.7
@@ -529,30 +529,30 @@ packages:
       - supports-color
     dev: true
 
-  /@angular/common@20.3.13(@angular/core@20.3.13)(rxjs@7.8.2):
-    resolution: {integrity: sha512-Jy+Qu6760TZyiDJX0+fNzkc70+lwF9ojdkIyCso/Lvbx1v3Fki0+9Wui7Vge56hknkr05xXg1aEUeqMN0966Lg==}
+  /@angular/common@21.0.0(@angular/core@21.0.0)(rxjs@7.8.2):
+    resolution: {integrity: sha512-uFvQDYU5X5nEnI9C4Bkdxcu4aIzNesGLJzmFlnwChVxB4BxIRF0uHL0oRhdkInGTIzPDJPH4nF6B/22c5gDVqA==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0}
     peerDependencies:
-      '@angular/core': 20.3.13
+      '@angular/core': 21.0.0
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
-      '@angular/core': 20.3.13(@angular/compiler@20.3.13)(rxjs@7.8.2)(zone.js@0.15.1)
+      '@angular/core': 21.0.0(@angular/compiler@21.0.0)(rxjs@7.8.2)(zone.js@0.15.1)
       rxjs: 7.8.2
       tslib: 2.8.1
 
-  /@angular/compiler-cli@20.3.13(@angular/compiler@20.3.13)(typescript@5.9.3):
-    resolution: {integrity: sha512-Cou3G8C60eKpD93SKBJRG5pa/xpmMHe6sc2aanWjneGWjZq1kR4v5eQwwr8LUByIsafcqxHGT7+q1bYXT2p2DQ==}
+  /@angular/compiler-cli@21.0.0(@angular/compiler@21.0.0)(typescript@5.9.3):
+    resolution: {integrity: sha512-KTXp+e2UPGyfFew6Wq95ULpHWQ20dhqkAMZ6x6MCYfOe2ccdnGYsAbLLmnWGmSg5BaOI4B0x/1XCFZf/n6WDgA==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0}
     hasBin: true
     peerDependencies:
-      '@angular/compiler': 20.3.13
-      typescript: '>=5.8 <6.0'
+      '@angular/compiler': 21.0.0
+      typescript: '>=5.9 <6.0'
     peerDependenciesMeta:
       typescript:
         optional: true
     dependencies:
-      '@angular/compiler': 20.3.13
-      '@babel/core': 7.28.3
+      '@angular/compiler': 21.0.0
+      '@babel/core': 7.28.4
       '@jridgewell/sourcemap-codec': 1.5.5
       chokidar: 4.0.3
       convert-source-map: 1.9.0
@@ -565,17 +565,17 @@ packages:
       - supports-color
     dev: true
 
-  /@angular/compiler@20.3.13:
-    resolution: {integrity: sha512-YEjzHxz9laEcC2YPBA7L09Ys8UIuPrRiBZcGCrOXzXmPATHGYuxqYuhZ8iKmKV0PG/4pP2fxD3Mv5wN0cBaOWg==}
+  /@angular/compiler@21.0.0:
+    resolution: {integrity: sha512-6jCH3UYga5iokj5F40SR4dlwo9ZRMkT8YzHCTijwZuDX9zvugp9jPof092RvIeNsTvCMVfGWuM9yZ1DRUsU/yg==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0}
     dependencies:
       tslib: 2.8.1
 
-  /@angular/core@20.3.13(@angular/compiler@20.3.13)(rxjs@7.8.2)(zone.js@0.15.1):
-    resolution: {integrity: sha512-12Kou+WAIjAUSG5TkDbypV2kreJ105VylAjlQ09bCvsGNTHjezGgahFa/tLz7iyrozhuivtGiQtiDaYsc79ysw==}
+  /@angular/core@21.0.0(@angular/compiler@21.0.0)(rxjs@7.8.2)(zone.js@0.15.1):
+    resolution: {integrity: sha512-bqi8fT4csyITeX8vdN5FJDBWx5wuWzdCg4mKSjHd+onVzZLyZ8bcnuAKz4mklgvjvwuXoRYukmclUurLwfq3Rg==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0}
     peerDependencies:
-      '@angular/compiler': 20.3.13
+      '@angular/compiler': 21.0.0
       rxjs: ^6.5.3 || ^7.4.0
       zone.js: ~0.15.0
     peerDependenciesMeta:
@@ -584,84 +584,86 @@ packages:
       zone.js:
         optional: true
     dependencies:
-      '@angular/compiler': 20.3.13
+      '@angular/compiler': 21.0.0
       rxjs: 7.8.2
       tslib: 2.8.1
       zone.js: 0.15.1
 
-  /@angular/forms@20.3.13(@angular/common@20.3.13)(@angular/core@20.3.13)(@angular/platform-browser@20.3.13)(rxjs@7.8.2):
-    resolution: {integrity: sha512-9vu9MCHJtgXvgPH+ZgXN46N3gpBBAckcmG62P7U+9BKivWvv3rEvkgX+4HvO+Pm2D6x/Jy1xbiQuVq9EDGPSNA==}
+  /@angular/forms@21.0.0(@angular/common@21.0.0)(@angular/core@21.0.0)(@angular/platform-browser@21.0.0)(@standard-schema/spec@1.0.0)(rxjs@7.8.2):
+    resolution: {integrity: sha512-kcudwbZs/ddKqaELz4eEW9kOGCsX61qsf9jkQsGTARBEOUcU2K+rM6mX5sTf9azHvQ9wlX4N36h0eYzBA4Y4Qg==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0}
     peerDependencies:
-      '@angular/common': 20.3.13
-      '@angular/core': 20.3.13
-      '@angular/platform-browser': 20.3.13
+      '@angular/common': 21.0.0
+      '@angular/core': 21.0.0
+      '@angular/platform-browser': 21.0.0
+      '@standard-schema/spec': ^1.0.0
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
-      '@angular/common': 20.3.13(@angular/core@20.3.13)(rxjs@7.8.2)
-      '@angular/core': 20.3.13(@angular/compiler@20.3.13)(rxjs@7.8.2)(zone.js@0.15.1)
-      '@angular/platform-browser': 20.3.13(@angular/animations@20.3.13)(@angular/common@20.3.13)(@angular/core@20.3.13)
+      '@angular/common': 21.0.0(@angular/core@21.0.0)(rxjs@7.8.2)
+      '@angular/core': 21.0.0(@angular/compiler@21.0.0)(rxjs@7.8.2)(zone.js@0.15.1)
+      '@angular/platform-browser': 21.0.0(@angular/animations@21.0.0)(@angular/common@21.0.0)(@angular/core@21.0.0)
+      '@standard-schema/spec': 1.0.0
       rxjs: 7.8.2
       tslib: 2.8.1
     dev: false
 
-  /@angular/platform-browser-dynamic@20.3.13(@angular/common@20.3.13)(@angular/compiler@20.3.13)(@angular/core@20.3.13)(@angular/platform-browser@20.3.13):
-    resolution: {integrity: sha512-/kBhzn/TewEPuoUeTh3+uJmviBoaey9g2qegwKj0rrr5XGqoEWurOY6yl8DqZCVHVimLZJdx8bBN7TEi7KlsLg==}
+  /@angular/platform-browser-dynamic@21.0.0(@angular/common@21.0.0)(@angular/compiler@21.0.0)(@angular/core@21.0.0)(@angular/platform-browser@21.0.0):
+    resolution: {integrity: sha512-H7nfgQvtzl242Tjs34k20XQC3ZNssJCCvYkGTkVowR61khsX87OE5ggKqTSnLiqq1+OoR29hyvvqn5e9truS7w==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0}
     peerDependencies:
-      '@angular/common': 20.3.13
-      '@angular/compiler': 20.3.13
-      '@angular/core': 20.3.13
-      '@angular/platform-browser': 20.3.13
+      '@angular/common': 21.0.0
+      '@angular/compiler': 21.0.0
+      '@angular/core': 21.0.0
+      '@angular/platform-browser': 21.0.0
     dependencies:
-      '@angular/common': 20.3.13(@angular/core@20.3.13)(rxjs@7.8.2)
-      '@angular/compiler': 20.3.13
-      '@angular/core': 20.3.13(@angular/compiler@20.3.13)(rxjs@7.8.2)(zone.js@0.15.1)
-      '@angular/platform-browser': 20.3.13(@angular/animations@20.3.13)(@angular/common@20.3.13)(@angular/core@20.3.13)
+      '@angular/common': 21.0.0(@angular/core@21.0.0)(rxjs@7.8.2)
+      '@angular/compiler': 21.0.0
+      '@angular/core': 21.0.0(@angular/compiler@21.0.0)(rxjs@7.8.2)(zone.js@0.15.1)
+      '@angular/platform-browser': 21.0.0(@angular/animations@21.0.0)(@angular/common@21.0.0)(@angular/core@21.0.0)
       tslib: 2.8.1
     dev: false
 
-  /@angular/platform-browser@20.3.13(@angular/animations@20.3.13)(@angular/common@20.3.13)(@angular/core@20.3.13):
-    resolution: {integrity: sha512-KyJzzpD4jMPGotDgVHF0cz9psjlVg6wYQrhuWcLeE97VUvp+CdwdOJ9tlxDlGE5tYZ0JrQxAT0l5qdcr6K9iNQ==}
+  /@angular/platform-browser@21.0.0(@angular/animations@21.0.0)(@angular/common@21.0.0)(@angular/core@21.0.0):
+    resolution: {integrity: sha512-KQrANla4RBLhcGkwlndqsKzBwVFOWQr1640CfBVjj2oz4M3dW5hyMtXivBACvuwyUhYU/qJbqlDMBXl/OUSudQ==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0}
     peerDependencies:
-      '@angular/animations': 20.3.13
-      '@angular/common': 20.3.13
-      '@angular/core': 20.3.13
+      '@angular/animations': 21.0.0
+      '@angular/common': 21.0.0
+      '@angular/core': 21.0.0
     peerDependenciesMeta:
       '@angular/animations':
         optional: true
     dependencies:
-      '@angular/animations': 20.3.13(@angular/core@20.3.13)
-      '@angular/common': 20.3.13(@angular/core@20.3.13)(rxjs@7.8.2)
-      '@angular/core': 20.3.13(@angular/compiler@20.3.13)(rxjs@7.8.2)(zone.js@0.15.1)
+      '@angular/animations': 21.0.0(@angular/core@21.0.0)
+      '@angular/common': 21.0.0(@angular/core@21.0.0)(rxjs@7.8.2)
+      '@angular/core': 21.0.0(@angular/compiler@21.0.0)(rxjs@7.8.2)(zone.js@0.15.1)
       tslib: 2.8.1
 
-  /@angular/router@20.3.13(@angular/common@20.3.13)(@angular/core@20.3.13)(@angular/platform-browser@20.3.13)(rxjs@7.8.2):
-    resolution: {integrity: sha512-TpNnqmcCFsAnf3tzdtWeGSSmHb9VTKCI6/1NRBgvpiiNSZ4ehQ/rPTy7D4q5uhu50vB0VECUSGkUAygQI8YHdw==}
+  /@angular/router@21.0.0(@angular/common@21.0.0)(@angular/core@21.0.0)(@angular/platform-browser@21.0.0)(rxjs@7.8.2):
+    resolution: {integrity: sha512-ARx1R2CmTgAezlMkUpV40V4T/IbXhL7dm4SuMVKbuEOsCKZC0TLOSSTsGYY7HKem45JHlJaByv819cJnabFgBg==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0}
     peerDependencies:
-      '@angular/common': 20.3.13
-      '@angular/core': 20.3.13
-      '@angular/platform-browser': 20.3.13
+      '@angular/common': 21.0.0
+      '@angular/core': 21.0.0
+      '@angular/platform-browser': 21.0.0
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
-      '@angular/common': 20.3.13(@angular/core@20.3.13)(rxjs@7.8.2)
-      '@angular/core': 20.3.13(@angular/compiler@20.3.13)(rxjs@7.8.2)(zone.js@0.15.1)
-      '@angular/platform-browser': 20.3.13(@angular/animations@20.3.13)(@angular/common@20.3.13)(@angular/core@20.3.13)
+      '@angular/common': 21.0.0(@angular/core@21.0.0)(rxjs@7.8.2)
+      '@angular/core': 21.0.0(@angular/compiler@21.0.0)(rxjs@7.8.2)(zone.js@0.15.1)
+      '@angular/platform-browser': 21.0.0(@angular/animations@21.0.0)(@angular/common@21.0.0)(@angular/core@21.0.0)
       rxjs: 7.8.2
       tslib: 2.8.1
     dev: false
 
-  /@angular/service-worker@20.3.13(@angular/core@20.3.13)(rxjs@7.8.2):
-    resolution: {integrity: sha512-WsWIbbSJXTYopKyQ98LHVAEu/gJaTIKZukfrnC4aRFfNnz72NQHDTFNfPQt3DQ7LXGIrN5TZkbbgeMKT3mfT+g==}
+  /@angular/service-worker@21.0.0(@angular/core@21.0.0)(rxjs@7.8.2):
+    resolution: {integrity: sha512-ZsJyVBvMQ6c9Xbci3cbPPQUPf+ZptvPshvf4eM5I4r3tJc7xDudpKKUqFBgAzZIN/GY5EvzMwGplgIy7HpKh1w==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0}
     hasBin: true
     peerDependencies:
-      '@angular/core': 20.3.13
+      '@angular/core': 21.0.0
       rxjs: ^6.5.3 || ^7.4.0
     dependencies:
-      '@angular/core': 20.3.13(@angular/compiler@20.3.13)(rxjs@7.8.2)(zone.js@0.15.1)
+      '@angular/core': 21.0.0(@angular/compiler@21.0.0)(rxjs@7.8.2)(zone.js@0.15.1)
       rxjs: 7.8.2
       tslib: 2.8.1
 
@@ -693,6 +695,29 @@ packages:
       '@babel/template': 7.27.2
       '@babel/traverse': 7.28.5
       '@babel/types': 7.28.5
+      convert-source-map: 2.0.0
+      debug: 4.4.3
+      gensync: 1.0.0-beta.2
+      json5: 2.2.3
+      semver: 6.3.1
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /@babel/core@7.28.4:
+    resolution: {integrity: sha512-2BCOP7TN8M+gVDj7/ht3hsaO/B/n5oDbiAyyvnRlNOs+u1o+JWNYTQrmpuNp1/Wq2gcFrI01JAW+paEKDMx/CA==}
+    engines: {node: '>=6.9.0'}
+    dependencies:
+      '@babel/code-frame': 7.27.1
+      '@babel/generator': 7.28.5
+      '@babel/helper-compilation-targets': 7.27.2
+      '@babel/helper-module-transforms': 7.28.3(@babel/core@7.28.4)
+      '@babel/helpers': 7.28.4
+      '@babel/parser': 7.28.5
+      '@babel/template': 7.27.2
+      '@babel/traverse': 7.28.5
+      '@babel/types': 7.28.5
+      '@jridgewell/remapping': 2.3.5
       convert-source-map: 2.0.0
       debug: 4.4.3
       gensync: 1.0.0-beta.2
@@ -819,6 +844,20 @@ packages:
       '@babel/core': ^7.0.0
     dependencies:
       '@babel/core': 7.28.3
+      '@babel/helper-module-imports': 7.27.1
+      '@babel/helper-validator-identifier': 7.28.5
+      '@babel/traverse': 7.28.5
+    transitivePeerDependencies:
+      - supports-color
+    dev: true
+
+  /@babel/helper-module-transforms@7.28.3(@babel/core@7.28.4):
+    resolution: {integrity: sha512-gytXUbs8k2sXS9PnQptz5o0QnpLL51SwASIORY6XaBKF88nsOT0Zw9szLqlSGQDP/4TljBAD5y98p2U1fqkdsw==}
+    engines: {node: '>=6.9.0'}
+    peerDependencies:
+      '@babel/core': ^7.0.0
+    dependencies:
+      '@babel/core': 7.28.4
       '@babel/helper-module-imports': 7.27.1
       '@babel/helper-validator-identifier': 7.28.5
       '@babel/traverse': 7.28.5
@@ -2299,6 +2338,13 @@ packages:
       '@jridgewell/sourcemap-codec': 1.5.5
       '@jridgewell/trace-mapping': 0.3.31
 
+  /@jridgewell/remapping@2.3.5:
+    resolution: {integrity: sha512-LI9u/+laYG4Ds1TDKSJW2YPrIlcVYOwi2fUC6xB43lueCjgxV4lffOCZCtYFiH6TNOX+tQKXx97T4IKHbhyHEQ==}
+    dependencies:
+      '@jridgewell/gen-mapping': 0.3.13
+      '@jridgewell/trace-mapping': 0.3.31
+    dev: true
+
   /@jridgewell/resolve-uri@3.1.2:
     resolution: {integrity: sha512-bRISgCIjP20/tbWSPWMEi54QVPRZExkuD9lJL+UIxUKtwVJA8wW1Trb1jMs1RFXo1CBTNZ/5hpC9QvmKWdopKw==}
     engines: {node: '>=6.0.0'}
@@ -2711,7 +2757,7 @@ packages:
     dev: true
     optional: true
 
-  /@ngtools/webpack@20.3.11(@angular/compiler-cli@20.3.13)(typescript@5.9.3)(webpack@5.101.2):
+  /@ngtools/webpack@20.3.11(@angular/compiler-cli@21.0.0)(typescript@5.9.3)(webpack@5.101.2):
     resolution: {integrity: sha512-c2/66tObP9YevCt7jyhwiGifS8ldfce6vYQ63Wwj8tlXSSutHk8+3VEQmbW3wW1JH7+0aNf3kF+pA97EbGj6QA==}
     engines: {node: ^20.19.0 || ^22.12.0 || >=24.0.0, npm: ^6.11.0 || ^7.5.6 || >=8.0.0, yarn: '>= 1.13.0'}
     peerDependencies:
@@ -2719,7 +2765,7 @@ packages:
       typescript: '>=5.8 <6.0'
       webpack: ^5.54.0
     dependencies:
-      '@angular/compiler-cli': 20.3.13(@angular/compiler@20.3.13)(typescript@5.9.3)
+      '@angular/compiler-cli': 21.0.0(@angular/compiler@21.0.0)(typescript@5.9.3)
       typescript: 5.9.3
       webpack: 5.101.2(esbuild@0.27.0)
     dev: true
@@ -2762,7 +2808,7 @@ packages:
     resolution: {integrity: sha512-/xGlezI6xfGO9NwuJlnwz/K14qD1kCSAGtacBHnGzeAIuJGazcp45KP5NuyARXoKb7cwulAGWVsbeSxdG/cb0Q==}
     engines: {node: ^18.17.0 || >=20.5.0}
     dependencies:
-      semver: 7.7.2
+      semver: 7.7.3
     dev: true
 
   /@npmcli/git@6.0.3:
@@ -2775,7 +2821,7 @@ packages:
       npm-pick-manifest: 10.0.0
       proc-log: 5.0.0
       promise-retry: 2.0.1
-      semver: 7.7.2
+      semver: 7.7.3
       which: 5.0.0
     dev: true
 
@@ -2802,7 +2848,7 @@ packages:
       hosted-git-info: 8.0.2
       json-parse-even-better-errors: 4.0.0
       proc-log: 5.0.0
-      semver: 7.7.2
+      semver: 7.7.3
       validate-npm-package-license: 3.0.4
     dev: true
 
@@ -3218,6 +3264,10 @@ packages:
       '@sigstore/core': 2.0.0
       '@sigstore/protobuf-specs': 0.4.0
     dev: true
+
+  /@standard-schema/spec@1.0.0:
+    resolution: {integrity: sha512-m2bOd0f2RT9k8QJx1JN85cZYyH1RqFBdlwtkSlf4tBDYLCiiZnv1fIIwacK6cqwXavOydf0NPToMQgpKq+dVlA==}
+    dev: false
 
   /@tsconfig/node10@1.0.11:
     resolution: {integrity: sha512-DcRjDCujK/kCk/cUe8Xz8ZSpm8mS3mNNpta+jGCA6USEDfktlNvm1+IuZ9eTcDbNk41BHwpHHeW+N1lKCz4zOw==}
@@ -4172,7 +4222,7 @@ packages:
       postcss-modules-scope: 3.2.1(postcss@8.5.6)
       postcss-modules-values: 4.0.0(postcss@8.5.6)
       postcss-value-parser: 4.2.0
-      semver: 7.7.2
+      semver: 7.7.3
       webpack: 5.101.2(esbuild@0.27.0)
     dev: true
 
@@ -5194,7 +5244,7 @@ packages:
       '@babel/parser': 7.28.5
       '@istanbuljs/schema': 0.1.3
       istanbul-lib-coverage: 3.2.2
-      semver: 7.7.2
+      semver: 7.7.3
     transitivePeerDependencies:
       - supports-color
     dev: true
@@ -5794,7 +5844,7 @@ packages:
       make-fetch-happen: 14.0.3
       nopt: 8.1.0
       proc-log: 5.0.0
-      semver: 7.7.2
+      semver: 7.7.3
       tar: 7.4.3
       which: 5.0.0
     transitivePeerDependencies:
@@ -5834,7 +5884,7 @@ packages:
     resolution: {integrity: sha512-u6DCwbow5ynAX5BdiHQ9qvexme4U3qHW3MWe5NqH+NeBm0LbiH6zvGjNNew1fY+AZZUtVHbOPF3j7mJxbUzpXg==}
     engines: {node: ^18.17.0 || >=20.5.0}
     dependencies:
-      semver: 7.7.2
+      semver: 7.7.3
     dev: true
 
   /npm-normalize-package-bin@4.0.0:
@@ -5848,7 +5898,7 @@ packages:
     dependencies:
       hosted-git-info: 8.0.2
       proc-log: 5.0.0
-      semver: 7.7.2
+      semver: 7.7.3
       validate-npm-package-name: 6.0.0
     dev: true
 
@@ -5858,7 +5908,7 @@ packages:
     dependencies:
       hosted-git-info: 9.0.0
       proc-log: 5.0.0
-      semver: 7.7.2
+      semver: 7.7.3
       validate-npm-package-name: 6.0.0
     dev: true
 
@@ -5876,7 +5926,7 @@ packages:
       npm-install-checks: 7.1.1
       npm-normalize-package-bin: 4.0.0
       npm-package-arg: 12.0.2
-      semver: 7.7.2
+      semver: 7.7.3
     dev: true
 
   /npm-registry-fetch@18.0.2:
@@ -6152,7 +6202,7 @@ packages:
       cosmiconfig: 9.0.0(typescript@5.9.3)
       jiti: 1.21.7
       postcss: 8.5.6
-      semver: 7.7.2
+      semver: 7.7.3
       webpack: 5.101.2(esbuild@0.27.0)
     transitivePeerDependencies:
       - typescript
