@@ -37,7 +37,7 @@
       "follow-redirects": ">=1.15.4",
       "body-parser": "^2.0.0",
       "serve-static": "^2.0.0",
-      "express": "^5.0.0",
+      "express": "^5.2.0",
       "path-to-regexp": "^8.0.0",
       "esbuild": "^0.27.0",
       "@modelcontextprotocol/sdk": ">=1.24.0"
