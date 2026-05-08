@@ -39,8 +39,8 @@ importers:
         specifier: ~7.8.2
         version: 7.8.2
       terser:
-        specifier: ~5.46.2
-        version: 5.46.2
+        specifier: ~5.47.0
+        version: 5.47.1
       zone.js:
         specifier: ~0.16.1
         version: 0.16.2
@@ -4045,6 +4045,11 @@ packages:
     engines: {node: '>=10'}
     hasBin: true
 
+  terser@5.47.1:
+    resolution: {integrity: sha512-tPbLXTI6ohPASb/1YViL428oEHu6/qv1OxqYnfaonVCFHqx4+wCd95pHrQWsL5X4pl90CTyW9piSAsS2L0VoMw==}
+    engines: {node: '>=10'}
+    hasBin: true
+
   thingies@2.6.0:
     resolution: {integrity: sha512-rMHRjmlFLM1R96UYPvpmnc3LYtdFrT33JIB7L9hetGue1qAPfn1N2LJeEjxUSidu1Iku+haLZXDuEXUHNGO/lg==}
     engines: {node: '>=10.18'}
@@ -4637,7 +4642,7 @@ snapshots:
       tslib: 2.8.1
       typescript: 6.0.3
       undici: 7.24.4
-      vite: 7.3.2(@types/node@25.6.1)(jiti@2.7.0)(less@4.4.2)(sass@1.97.3)(terser@5.46.2)
+      vite: 7.3.2(@types/node@25.6.1)(jiti@2.7.0)(less@4.4.2)(sass@1.97.3)(terser@5.47.1)
       watchpack: 2.5.1
     optionalDependencies:
       '@angular/core': 21.2.12(@angular/compiler@21.2.12)(rxjs@7.8.2)(zone.js@0.16.2)
@@ -6475,7 +6480,7 @@ snapshots:
 
   '@vitejs/plugin-basic-ssl@2.1.4(vite@7.3.2(@types/node@25.6.1)(jiti@2.7.0)(less@4.4.2)(sass@1.97.3)(terser@5.46.0))':
     dependencies:
-      vite: 7.3.2(@types/node@25.6.1)(jiti@2.7.0)(less@4.4.2)(sass@1.97.3)(terser@5.46.2)
+      vite: 7.3.2(@types/node@25.6.1)(jiti@2.7.0)(less@4.4.2)(sass@1.97.3)(terser@5.47.1)
 
   '@webassemblyjs/ast@1.14.1':
     dependencies:
@@ -8691,6 +8696,13 @@ snapshots:
       commander: 2.20.3
       source-map-support: 0.5.21
 
+  terser@5.47.1:
+    dependencies:
+      '@jridgewell/source-map': 0.3.11
+      acorn: 8.16.0
+      commander: 2.20.3
+      source-map-support: 0.5.21
+
   thingies@2.6.0(tslib@2.8.1):
     dependencies:
       tslib: 2.8.1
@@ -8805,7 +8817,7 @@ snapshots:
 
   vary@1.1.2: {}
 
-  vite@7.3.2(@types/node@25.6.1)(jiti@2.7.0)(less@4.4.2)(sass@1.97.3)(terser@5.46.2):
+  vite@7.3.2(@types/node@25.6.1)(jiti@2.7.0)(less@4.4.2)(sass@1.97.3)(terser@5.47.1):
     dependencies:
       esbuild: 0.27.3
       fdir: 6.5.0(picomatch@4.0.4)
@@ -8819,7 +8831,7 @@ snapshots:
       jiti: 2.7.0
       less: 4.4.2
       sass: 1.97.3
-      terser: 5.46.2
+      terser: 5.47.1
 
   watchpack@2.5.1:
     dependencies:
