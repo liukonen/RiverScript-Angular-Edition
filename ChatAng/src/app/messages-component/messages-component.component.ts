@@ -15,9 +15,9 @@ import {ChatInterface} from '../chat-interface';
 
 
 export class MessagesComponentComponent implements OnInit, AfterViewChecked  {
-@ViewChild('scrollMe') private myScrollContainer: ElementRef;
+@ViewChild('scrollMe') private myScrollContainer!: ElementRef;
 messages: ChatInterface[] = []
-messageText: string
+messageText: string = ""
 Counter : number = 0
 
   constructor(private botService: ChatInterfaceService) { }
@@ -43,7 +43,7 @@ this.messageText = "";
     this.Counter++;
   }
 
-  TalkToBot(message) {
+  TalkToBot(message: string) {
     this.botService.Talk(message).subscribe((data: ChatResponse) => { this.messages.push({timestamp: new Date(), Message: data.response, UserIsHuman: false})});
   }
 

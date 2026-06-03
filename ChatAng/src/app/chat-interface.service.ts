@@ -10,7 +10,7 @@ export class ChatInterfaceService {
 
   constructor(private http: HttpClient) { }
 
-  Talk(message){
+  Talk(message: string){
       return this.http.get<ChatResponse>(this.hostUrl, { params: new HttpParams().set('text', message), responseType: "json" });
     }
 hostUrl = "https://bot.liukonen.dev";
